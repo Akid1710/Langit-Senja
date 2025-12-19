@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Langit Senja — Catatan Lima Hati</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <header>
+  <nav class="navbar">
+    <h1>🌅 Langit Senja</h1>
+    <button class="menu-toggle" id="menuToggle">☰</button>
+    <ul id="navMenu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="bab1.html">Bab 1</a></li>
+      <li><a href="bab2.html">Bab 2</a></li>
+      <li><a href="bab3.html">Bab 3</a></li>
+      <li><a href="quotes.html">Quotes</a></li>
+      <li><a href="epilog.html">Epilog</a></li>
+    </ul>
+  </nav>
+</header>
+
+  </header>
+
+  <section class="hero">
+    <h2>Untuk mereka yang pernah hampir pergi,<br> tapi tetap jadi rumah di hati yang sama.</h2>
+    <button onclick="window.location.href='bab1.html'">Mulai Membaca</button>
+  </section>
+
+  <footer>
+    <p>© 2025 Dika Kurniawan — Langit Senja: Catatan Lima Hati</p>
+  </footer>
+  <script>
+  const menuToggle = document.getElementById('menuToggle');
+  const navMenu = document.getElementById('navMenu');
+
+  menuToggle.addEventListener('click', () => {
+    navMenu.classList.toggle('show');
+  });
+</script>
+
+</body>
+</html>
